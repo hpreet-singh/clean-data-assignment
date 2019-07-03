@@ -79,4 +79,4 @@ tidy_data <- extracted %>%
   group_by(subject, activity) %>%
   summarize_at(vars(-(activity:subject)), mean)
   
-write_csv(tidy_data, "tidy_data.csv")
+write_csv(tidy_data, "../tidy_data.csv")
