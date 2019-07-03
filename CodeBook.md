@@ -9,7 +9,7 @@ This is a code book code book that describes the variables and transformation wo
 - **extracted** - This data table contains only mean and standard deviation variables
 
 
-## Variables in data
+## Variables in tidy data
 - `subject` - An id denoting the subject which carried out the test. This has range 1-30
 - `activity` - A string containing either of the following values
   - WALKING
@@ -18,7 +18,7 @@ This is a code book code book that describes the variables and transformation wo
   - SITTING
   - STANDING
   - LAYING 
-- Other variables which are either a mean or a standard deviation
+- Other variables which are either a mean or a standard deviation and part of output
 	- tBodyAcc-mean()-X
 	- tBodyAcc-mean()-Y
 	- tBodyAcc-mean()-Z
